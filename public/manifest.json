@@ -11,6 +11,12 @@
   "host_permissions": [
     "https://*.google.com/*"
   ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/*"],
+      "js": ["./content.js"]
+    }
+  ],
   "action": {
     "default_popup": "index.html",
     "default_title": "Default Title",
