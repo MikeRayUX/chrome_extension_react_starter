@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useContext, useRef } from 'react';
 import './tailwind.css';
 
-function App() {
+const App = () => {
   return (
     // outer container (for use when developing in browser via yarn start)
     <div className="h-screen w-full flex justify-center items-center bg-gray-300">
@@ -15,6 +15,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
